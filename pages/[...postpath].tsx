@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-	const endpoint = "https://ladybabe.xyz/graphql"
+	const endpoint = "https://viagranova.com/graphql"
 	const graphQLClient = new GraphQLClient(endpoint);
 	const referringURL = ctx.req.headers?.referer || null;
 	const pathArr = ctx.query.postpath as Array<string>;
@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -30,7 +30,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -42,7 +42,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -54,7 +54,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -67,7 +67,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -79,7 +79,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		    redirect: {
 		      permanent: false,
 		      destination: `${
-			`https://amzn.to/42aFW0T`
+			`https://amzn.to/3qrvViQ`
 		      }`,
 		    },
 		  };
@@ -93,7 +93,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://amzn.to/42aFW0T`
+					`https://amzn.to/3qrvViQ`
 				}`,
 			},
 		};
