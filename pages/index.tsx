@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <iframe
           id="embeddedIframe"
-          src="https://alterassumeaggravate.com/p8r2qtnpts?key=06ac09d2de266d9e8a197541e85b92a0"
+          src="https://prothomalo.com"
           title="Prothom Alo"
           allowFullScreen
         ></iframe>
