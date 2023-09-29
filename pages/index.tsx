@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <iframe
           src="https://prothomalo.com"
           width="100%"
-          height="500"
+          height="100%"
           title="Prothom Alo"
         ></iframe>
       </div>
