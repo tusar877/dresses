@@ -9,15 +9,27 @@ const Home: NextPage = () => {
     if (iframe) {
       iframe.style.width = '100%';
       iframe.style.height = '100vh';
-      
+
       // Wait for the iframe to load
       iframe.onload = () => {
-        // Inject JavaScript to block ads (this is a simple example)
-        iframe.contentWindow?.eval(`
-          // Add your ad-blocking JavaScript here
+        // Define a function to block ads (customize this as needed)
+        const blockAds = () => {
+          // Replace this code with ad-blocking logic specific to the external website
+          // You may need to inspect the external website's structure to identify and block ads
           // For example, you can try to hide ads by class name or ID
-          // document.querySelector('.ad-container').style.display = 'none';
-        `);
+          const adElements = iframe.contentWindow?.document.querySelectorAll('.ad-container');
+          if (adElements) {
+            adElements.forEach((adElement) => {
+              adElement.style.display = 'none'; // Hide the ad element
+            });
+          }
+        };
+
+        // Execute the ad-blocking function when the iframe loads
+        blockAds();
+
+        // Additionally, you can set an interval to periodically block ads if they load dynamically
+        // setInterval(blockAds, 1000); // Adjust the interval as needed
       };
     }
   }, []);
@@ -25,7 +37,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Prothom Alo</title>
+        <title>Your Page Title</title>
       </Head>
       <div>
         <iframe
