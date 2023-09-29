@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Your Page Title</title>
+        <title>Prothomalo News</title>
       </Head>
       <div className={styles.container}>
         <iframe
