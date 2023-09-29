@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     // Set the iframe to occupy the full viewport height and width
     const iframe = document.getElementById('embeddedIframe') as HTMLIFrameElement;
     if (iframe) {
-      iframe.style.width = '100vh';
+      iframe.style.width = '100%';
       iframe.style.height = '100vh';
     }
   }, []);
