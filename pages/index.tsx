@@ -9,14 +9,7 @@ const Home: NextPage = () => {
     window.location.href = 'https://warriorplus.com/o2/a/kc2ykv/0';
   }, []);
 
-  return (
-    <>
-      <Head>
-        <title>Earn Money</title>
-        <meta name="description" content="Here you go" />
-      </Head>
-    </>
-  );
+  return null;
 };
 
 export default Home;
