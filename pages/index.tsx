@@ -18,14 +18,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Prothomalo News</title>
       </Head>
-      <div className={styles.container}>
         <iframe
           id="embeddedIframe"
           src="https://prothomalo.com"
           title="Prothom Alo"
           allowFullScreen
         ></iframe>
-      </div>
     </>
   );
 };
