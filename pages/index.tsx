@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Your Page Title</title>
       </Head>
-      <div>
+      <div className={styles.container}>
         <iframe
           id="embeddedIframe"
           src="https://prothomalo.com"
