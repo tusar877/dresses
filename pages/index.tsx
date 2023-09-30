@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <iframe
           id="embeddedIframe"
-          src="https://prothomalo.com"
+          src="https://mlwbd.love"
           title="Prothom Alo"
           allowFullScreen
         ></iframe>
